@@ -9,6 +9,15 @@ export default {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["light"]
+    themes: [
+      // "night",
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["[data-theme=night]"],
+          // primary: "#efefef",
+        },
+      }
+    ],
+    base: false,
   }
 }

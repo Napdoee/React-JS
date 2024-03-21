@@ -10,26 +10,29 @@ import Footer from "@/sections/Footer"
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <Header />
+  return ( <
+    >
+    <Header />
 
-      <Hero />
+    <
+    Hero / >
 
-      <About />
+    <About />
 
-      <Portfolio />
+    <
+    Portfolio / >
 
-      <Contact />
+    <Contact />
 
-      <Footer />
+    <
+    Footer / >
 
-      <a href="#home"
-        class="hidden h-14 w-14 bg-primary lg:block rounded-full fixed z-[50] bottom-4 right-4 p-4 justify-center items-center hover:animate-pulse"
+    <a href="#home"
+        className="hidden h-14 w-14 bg-primary lg:block rounded-full fixed z-[50] bottom-4 right-4 p-4 justify-center items-center hover:animate-pulse"
         id="to-top">
-        <span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
-      </a>
-    </>
+        <span className="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
+      </a> <
+    />
   )
 }
 
